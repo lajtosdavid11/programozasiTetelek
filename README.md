@@ -23,3 +23,6 @@
 ## Keresés (lineáris)
 - Keresés metódus létreh.
 - Van e benne 50 akkor hányadik.
+## Maximum 
+- Metódus létreh.
+- Kiírni a legnagyobb elemet.

@@ -94,6 +94,23 @@ namespace programozasiTetelek
 
 
         }
+
+        static void max()
+        {
+            int max = tomb[0];
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i] > max)
+                {
+                    max = tomb[i];
+                }
+                
+            }
+            Console.WriteLine("Legnagyobb elem: {0}", max);
+
+
+
+        }
         static void Main(string[] args)
         {
             kiiras();
@@ -102,6 +119,7 @@ namespace programozasiTetelek
             eldontes();
             kivalasztas();
             kereses();
+            max();
 
             Console.ReadKey();
         }
