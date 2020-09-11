@@ -18,9 +18,21 @@ namespace programozasiTetelek
                 Console.Write(tomb[i]+ ",");
             }
         }
+
+        static void osszegzes()
+        {
+            Console.WriteLine("\n");
+            int osszeg = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                osszeg += tomb[i];
+            }
+            Console.WriteLine(osszeg);
+        }
         static void Main(string[] args)
         {
             kiiras();
+            osszegzes();
 
             Console.ReadKey();
         }
