@@ -43,11 +43,32 @@ namespace programozasiTetelek
             }
             Console.WriteLine("3-mal osztható számok: {0}", megszamol);
         }
+
+        static void eldontes()
+        {
+            bool van = true;
+            int i = 0;
+            while (i < tomb.Length && van)
+            {
+                if (tomb[i] == 69)
+                {
+                     van = false;
+                    Console.WriteLine("Van ilyen");
+                }
+                i++;
+            }
+            if (van)
+            {
+                Console.WriteLine("Nincs ilyen");
+            }
+
+        }
         static void Main(string[] args)
         {
             kiiras();
             osszegzes();
             megszamlalas();
+            eldontes();
 
             Console.ReadKey();
         }
