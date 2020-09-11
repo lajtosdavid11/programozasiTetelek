@@ -66,6 +66,18 @@ namespace programozasiTetelek
 
         static void kivalasztas()
         {
+            int i = 1;
+            while (tomb[i] != 50)
+            {
+                i++;
+            }
+            Console.WriteLine("A keresett szám van benne",i);
+            
+
+        }
+
+        static void kereses()
+        {
             int i = 0;
             while (tomb[i] != 50)
             {
@@ -73,12 +85,13 @@ namespace programozasiTetelek
             }
             if (i != tomb.Length)
             {
-                Console.WriteLine("A keresett szám a {0} indexű helyen van",i);
+                Console.WriteLine("A keresett szám a {0} indexű helyen van", i);
             }
             else
             {
                 Console.WriteLine("Nincs benne");
             }
+
 
         }
         static void Main(string[] args)
@@ -88,6 +101,7 @@ namespace programozasiTetelek
             megszamlalas();
             eldontes();
             kivalasztas();
+            kereses();
 
             Console.ReadKey();
         }

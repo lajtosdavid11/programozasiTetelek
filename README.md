@@ -20,3 +20,6 @@
 - Metódus létrehozása
 - Hányadik az 50-es szám?
 - Írjuk ki az indexét
+## Keresés (lineáris)
+- Keresés metódus létreh.
+- Van e benne 50 akkor hányadik.
