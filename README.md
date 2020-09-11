@@ -10,3 +10,5 @@
 - Összegzés metódus létrehozása
 - Összegzés tétele a tömbön
 - Eredmény kiírása a consol-ra
+- Hány 3-mal osztható elem van a tömbben?
+- Eredmény kiírása a consol-ra

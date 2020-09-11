@@ -29,10 +29,25 @@ namespace programozasiTetelek
             }
             Console.WriteLine(osszeg);
         }
+
+        static void megszamlalas()
+        {
+            int megszamol = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i] % 3 == 0)
+                {
+                    megszamol++;
+                }
+                
+            }
+            Console.WriteLine("3-mal osztható számok: {0}", megszamol);
+        }
         static void Main(string[] args)
         {
             kiiras();
             osszegzes();
+            megszamlalas();
 
             Console.ReadKey();
         }
