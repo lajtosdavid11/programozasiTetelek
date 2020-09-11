@@ -63,12 +63,31 @@ namespace programozasiTetelek
             }
 
         }
+
+        static void kivalasztas()
+        {
+            int i = 0;
+            while (i <tomb.Length && tomb[i] != 50)
+            {
+                i++;
+            }
+            if (i != tomb.Length)
+            {
+                Console.WriteLine("A keresett szám a {0} indexű helyen van",i);
+            }
+            else
+            {
+                Console.WriteLine("Nincs benne");
+            }
+
+        }
         static void Main(string[] args)
         {
             kiiras();
             osszegzes();
             megszamlalas();
             eldontes();
+            kivalasztas();
 
             Console.ReadKey();
         }
