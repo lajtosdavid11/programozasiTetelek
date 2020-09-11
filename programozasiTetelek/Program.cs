@@ -67,7 +67,7 @@ namespace programozasiTetelek
         static void kivalasztas()
         {
             int i = 0;
-            while (i <tomb.Length && tomb[i] != 50)
+            while (tomb[i] != 50)
             {
                 i++;
             }
